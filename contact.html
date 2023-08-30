@@ -1,0 +1,182 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="logo.PNG">
+
+
+
+
+
+<main>
+  <h1>&mdash;CONTACT US </h1>
+  <ol role="list">
+    <li role="listitem">
+      <article aria-label="Death is a Dialogue between">
+        <p>
+          <span>Visit Us @ </span>
+          <span>Suite 35 374 Adetokunbo Ademola Cres, <br>Abuja , Federal Capital Territory </span>
+         
+        </p>
+        <p>
+          <span>Call Us @ </span>
+          <span> 09155563763 <br><br><br> </span>
+       
+        </p>
+      </article>
+    </li>
+   
+    
+  </ol>
+</main>
+<style>
+  @layer config, resets, custom;
+
+@layer custom {
+  body {
+    position: relative;
+    padding-inline: var(--page-padding-inline);
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    z-index: 1;
+    block-size: calc(var(--magic-spacing) + 2.5em);
+    inline-size: 100%;
+    background: linear-gradient(to bottom, transparent, var(--color-bg) 15%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1,
+  h2 {
+    font-weight: inherit;
+  }
+
+  h1 {
+    position: sticky;
+    inset-block-end: 0;
+    order: 2;
+    z-index: 2;
+    padding-block-end: var(--magic-spacing);
+    font-size: var(--pt-minion);
+    text-transform: uppercase;
+    letter-spacing: 0.35ch;
+  }
+
+  h2 {
+    font-size: var(--pt-paragon);
+  }
+
+  ol {
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    align-items: center;
+    position: relative;
+    inline-size: 100vi;
+    min-block-size: 100dvb;
+    margin-inline-start: calc(50% - 50vi);
+    overflow: auto;
+    scrollbar-gutter: stable;
+  }
+
+  article {
+    padding-block: var(--magic-spacing) calc(var(--magic-spacing) + 2em);
+    padding-inline: var(--page-padding-inline);
+    white-space: nowrap;
+  }
+
+  h2 + p {
+    margin-block-start: calc(var(--stack) * 0.75);
+  }
+
+  p {
+    display: grid;
+  }
+
+  p + p {
+    margin-block-start: var(--stack);
+  }
+
+  .hang {
+    text-indent: -0.9ex;
+  }
+}
+
+@layer config {
+  :root {
+    --color-fg: #202020;
+    --color-bg: #f4f4f4;
+    --gutter: clamp(3ch, 2.5vmax, 3.75ch);
+    --stack: clamp(1.25ex, 2.5vmax, 1.75ex);
+    --paragraph-indent: calc(var(--gutter) / 1.5);
+    --page-padding-inline: calc((100vi - min(var(--line-length), 80vi)) / 2);
+    --magic-spacing: 5vmax;
+    --line-length: 60ch;
+    --font: "Goudy Bookletter 1911", serif;
+    --font-weight: 400;
+    --font-size-min: 100%;
+    --font-size-max: 150%;
+    --leading: 1.35;
+
+    --pt-double-canon: 4.666rem;
+    --pt-canon: 3.999rem;
+    --pt-double-great-primer: 2.999rem;
+    --pt-double-english: 2.333rem;
+    --pt-double-pica: 2rem;
+    --pt-paragon: 1.666rem;
+    --pt-great-primer: 1.5rem;
+    --pt-english: 1.166rem;
+    --pt-pica: 1rem;
+    --pt-small-pica: 0.916rem;
+    --pt-long-primer: 0.833rem;
+    --pt-bourgeois: 0.75rem;
+    --pt-minion: 0.583em;
+
+    font-family: var(--font);
+    font-size: clamp(
+      var(--font-size-min),
+      var(--font-size-min) * 0.9 + 0.5vi,
+      var(--font-size-max)
+    );
+    font-weight: var(--font-weight);
+    line-height: var(--leading);
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+    color-scheme: dark light;
+    accent-color: crimson;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-fg: #f4f4f4;
+      --color-bg: #202020;
+    }
+  }
+}
+
+@layer resets {
+  *,
+  *::before,
+  *::after {
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+</style>

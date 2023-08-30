@@ -1,0 +1,311 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<link rel="icon" type="image/x-icon" href="logo.PNG">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="index.html"></a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+		  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+		  <a class="nav-link" href="about.html">About</a>
+		  <a class="nav-link" href="lookbook.html">Lookbook </a>
+		  <a class="nav-link" href="contact.html">Contact  </a>
+		</div>
+	  </div>
+	</div>
+  </nav>
+
+<article>
+	<header>
+		<h1>About  <span>your no 1 clothing </span> Plug </h1>
+	</header>
+
+	<p>Glam Palace by Roxy an inclusive palace of style and expression. We're a premier shopping and retail establishment that offers a unique blend of luxury, fashion-forward items, and inclusivity.  </p>
+
+	<figure>
+		<div>
+			<img class="develop-photo" src="d1.JPG" alt=" " title="">
+		</div>
+		<figcaption>Fashion nova in abuja </figcaption>
+	</figure>
+
+	<p>Our mission is to provide a fashion haven where everyone can explore their individuality, regardless of gender, age, or personal style. At Glam Palace, we pride ourselves on curating a carefully selected collection that showcases the latest trends and timeless classics..</p>
+
+	<p>We believe that fashion is a form of self-expression, and our diverse range of products reflects this. </p>
+
+	<figure>
+		<div>
+			<img class="develop-photo" src="d4.webp" alt="" title="">
+		</div>
+		<figcaption>Stand out with your Fashion </figcaption>
+	</figure>
+
+	<p>Whether you prefer to shop online or step into our welcoming physical store, we're here to make your fashion journey seamless and enjoyable. </p>
+
+	<p>That's why we offer same day delivery services within Abuja, ensuring that your fashion cravings are promptly satisfied. Experience the convenience of shopping at Glam Palace, where your fashion finds are just a click away from your doorstep...</p>
+
+	<figure>
+		<div>
+			<img class="develop-photo" src="s5.jpg" alt=" " title="">
+		</div>
+		<figcaption>Shop Boohoo in Abuja </figcaption>
+	</figure>
+
+	<p> We're open from Monday to Saturday, from 8:00 AM to 8:00 PM, providing ample opportunity for you to explore our exquisite offerings and find the perfect ensemble that resonates with your personality. </p>
+
+	
+	<div class="shuffle-photos">
+		<figure>
+			<div>
+				<img src="w6.PNG" alt="" title=" ">
+			</div>
+			<figcaption>Collection for the Hunks </figcaption>
+		</figure>
+
+		<figure>
+			<div>
+				<img src="w5.PNG" alt="Airplane window view from behind the wing. The sun is setting, casting a golden glow over a field of fluffy white clouds." title="Photo by Jim Flores for Unsplash. ">
+			</div>
+			<figcaption>Mens luxury Looks </figcaption>
+		</figure>
+	</div>
+
+	<p>  Embrace the realm of unisex fashion that transcends norms and celebrates diversity. Discover your style, define your presence, and become a part of the Glam Palace legacy.. </p>
+
+	<p> For inquiries, orders, and style advice, connect with us online or visit our store. Glam Palace by Roxy is not just a shopping experience; it's a statement of inclusivity, luxury, and empowerment. </p>
+
+	
+</article>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400&display=swap");
+
+:root {
+	--bg-color-1: hsl(60deg 23% 95%);
+	--bg-color-2: hsl(238deg 60% 96%);
+	--text-color: hsl(222deg 29% 24%);
+	--shadow-color: 60deg 8% 68%;
+	--shadow: 0.2px 0.5px 0.5px hsl(var(--shadow-color) / 0.41),
+		0.4px 1px 1px -1.3px hsl(var(--shadow-color) / 0.33),
+		1.3px 3.1px 3px -2.7px hsl(var(--shadow-color) / 0.26),
+		3.5px 8.3px 8.1px -4px hsl(var(--shadow-color) / 0.18);
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: clamp(1.125rem, 2vw, 1.25rem);
+	color: var(--text-color);
+	background-image: linear-gradient(
+		to bottom,
+		var(--bg-color-1),
+		var(--bg-color-2)
+	);
+	overflow-x: hidden;
+}
+
+article {
+	--photo-margin: clamp(1rem, 6vw, 2rem);
+	inline-size: min(65ch, 100% - 4rem);
+	margin-inline: auto;
+	margin-block-end: 30vh;
+}
+
+header {
+	position: relative;
+	display: grid;
+	place-items: center;
+	height: calc(100vh - 15rem);
+}
+
+h1 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 0.2em;
+	margin-inline-start: -2rem;
+	font-size: clamp(1.5rem, 10vw, 6rem);
+	font-family: "Caveat", cursive;
+	line-height: 1;
+	rotate: -3deg;
+	background: linear-gradient(176deg, #4f67e3 0%, #ca4fc2 45%, #edba5d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1 span {
+	font-size: 0.6em;
+}
+
+p {
+	margin-block: 2.5rem;
+	letter-spacing: -0.025em;
+	line-height: 1.75em;
+}
+
+figure {
+	position: relative;
+	display: grid;
+	grid-template-areas:
+		"photo"
+		"caption";
+	gap: 0.5rem;
+	margin-inline: auto;
+	border: 1rem solid white;
+	width: min(250px, 100%);
+	background-color: white;
+	box-shadow: var(--shadow);
+	rotate: var(--rotate, -3deg);
+	border-radius: 0.125rem;
+}
+
+figure:nth-of-type(even) {
+	direction: rtl;
+	--float: right;
+	--rotate: 2deg;
+	--offset: 0.5rem;
+}
+
+figure div {
+	overflow: hidden;
+	aspect-ratio: 1;
+	background-color: black;
+	border-radius: inherit;
+}
+
+img {
+	position: relative;
+	width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+figcaption {
+	display: grid;
+	place-content: start end;
+	height: 3.5rem;
+	font-family: "Caveat", cursive;
+	line-height: 1;
+}
+
+.shuffle-photos {
+	display: grid;
+	grid-template-areas: "container";
+	place-items: center;
+	margin-inline: auto;
+}
+
+.shuffle-photos > * {
+	grid-area: container;
+}
+
+.shuffle-photos figure {
+	--float: none;
+	margin: unset;
+}
+
+.shuffle-photos > :first-child {
+	z-index: 1;
+}
+
+@media (min-width: 600px) {
+	figure {
+		clear: both;
+		float: var(--float, left);
+		margin-inline: 0 var(--photo-margin);
+		margin-block-end: var(--photo-margin);
+		translate: var(--offset, -0.5rem) 0;
+	}
+
+	.shuffle-photos {
+		float: right;
+		max-width: 300px;
+		margin-inline: var(--photo-margin) 0;
+		margin-block-end: var(--photo-margin);
+	}
+}
+
+/* --------------------------------
+✨ Scroll-driven animations
+--------------------------------- */
+figure {
+	view-timeline-name: --photo;
+}
+
+header {
+	animation: auto linear title both;
+	animation-timeline: view();
+	animation-range: exit 10% cover 80%;
+}
+
+.develop-photo {
+	animation: auto linear develop both;
+	animation-timeline: --photo;
+	animation-range: entry 30% cover 40%;
+}
+
+.shuffle-photos > :first-child {
+	animation: auto linear shuffle-top both;
+	animation-timeline: view();
+	animation-range: entry 110% cover 60%;
+}
+
+.shuffle-photos > :last-child {
+	animation: auto linear shuffle-bottom both;
+	animation-timeline: view();
+	animation-range: entry 110% cover 60%;
+}
+
+@keyframes title {
+	to {
+		opacity: 0;
+		translate: 0 10%;
+	}
+}
+
+@keyframes develop {
+	from {
+		filter: blur(30px);
+		scale: 1.1;
+		opacity: 0;
+	}
+	to {
+		filter: blur(0);
+		scale: 1;
+		opacity: 1;
+	}
+}
+
+@keyframes shuffle-top {
+	50% {
+		translate: 100% -20%;
+		rotate: 20deg;
+	}
+	to {
+		rotate: 5deg;
+	}
+}
+
+@keyframes shuffle-bottom {
+	50% {
+		translate: -15% 35%;
+		rotate: -15deg;
+		z-index: 0;
+	}
+	51% {
+		z-index: 1;
+	}
+	to {
+		rotate: -5deg;
+		z-index: 1;
+	}
+}
+
+</style>
+<script>
+
+
+</script>
